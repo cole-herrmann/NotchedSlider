@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E733C1B71A7807A800B4A72F /* Proxima Nova Light-2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E733C1B11A7807A800B4A72F /* Proxima Nova Light-2.ttf */; };
+		E733C1B81A7807A800B4A72F /* Proxima Nova Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E733C1B21A7807A800B4A72F /* Proxima Nova Light.ttf */; };
+		E733C1B91A7807A800B4A72F /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E733C1B31A7807A800B4A72F /* Proxima Nova Thin.otf */; };
+		E733C1BA1A7807A800B4A72F /* Proxima Nova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E733C1B41A7807A800B4A72F /* Proxima Nova-LightItalic.otf */; };
+		E733C1BB1A7807A800B4A72F /* ProximaNova-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = E733C1B51A7807A800B4A72F /* ProximaNova-Reg.otf */; };
+		E733C1BC1A7807A800B4A72F /* proximanova-semibold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E733C1B61A7807A800B4A72F /* proximanova-semibold-webfont.ttf */; };
 		E7F3652E1A76CACA0080241B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3652D1A76CACA0080241B /* AppDelegate.swift */; };
 		E7F365301A76CACA0080241B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3652F1A76CACA0080241B /* ViewController.swift */; };
 		E7F365331A76CACA0080241B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F365311A76CACA0080241B /* Main.storyboard */; };
 		E7F365351A76CACA0080241B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F365341A76CACA0080241B /* Images.xcassets */; };
 		E7F365381A76CACA0080241B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F365361A76CACA0080241B /* LaunchScreen.xib */; };
 		E7F365441A76CACA0080241B /* NotchedSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F365431A76CACA0080241B /* NotchedSliderTests.swift */; };
+		E7F3654E1A76CAD80080241B /* NotchedSliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3654D1A76CAD80080241B /* NotchedSliderControl.swift */; };
+		E7F365501A76CF940080241B /* NotchedSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3654F1A76CF940080241B /* NotchedSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E733C1B11A7807A800B4A72F /* Proxima Nova Light-2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light-2.ttf"; sourceTree = "<group>"; };
+		E733C1B21A7807A800B4A72F /* Proxima Nova Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light.ttf"; sourceTree = "<group>"; };
+		E733C1B31A7807A800B4A72F /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		E733C1B41A7807A800B4A72F /* Proxima Nova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova-LightItalic.otf"; sourceTree = "<group>"; };
+		E733C1B51A7807A800B4A72F /* ProximaNova-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Reg.otf"; sourceTree = "<group>"; };
+		E733C1B61A7807A800B4A72F /* proximanova-semibold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-semibold-webfont.ttf"; sourceTree = "<group>"; };
 		E7F365281A76CACA0080241B /* NotchedSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotchedSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F3652C1A76CACA0080241B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F3652D1A76CACA0080241B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,8 @@
 		E7F3653D1A76CACA0080241B /* NotchedSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotchedSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F365421A76CACA0080241B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F365431A76CACA0080241B /* NotchedSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchedSliderTests.swift; sourceTree = "<group>"; };
+		E7F3654D1A76CAD80080241B /* NotchedSliderControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotchedSliderControl.swift; sourceTree = "<group>"; };
+		E7F3654F1A76CF940080241B /* NotchedSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotchedSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +99,8 @@
 				E7F365341A76CACA0080241B /* Images.xcassets */,
 				E7F365361A76CACA0080241B /* LaunchScreen.xib */,
 				E7F3652B1A76CACA0080241B /* Supporting Files */,
+				E7F3654D1A76CAD80080241B /* NotchedSliderControl.swift */,
+				E7F3654F1A76CF940080241B /* NotchedSliderView.swift */,
 			);
 			path = NotchedSlider;
 			sourceTree = "<group>";
@@ -90,6 +108,12 @@
 		E7F3652B1A76CACA0080241B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E733C1B11A7807A800B4A72F /* Proxima Nova Light-2.ttf */,
+				E733C1B21A7807A800B4A72F /* Proxima Nova Light.ttf */,
+				E733C1B31A7807A800B4A72F /* Proxima Nova Thin.otf */,
+				E733C1B41A7807A800B4A72F /* Proxima Nova-LightItalic.otf */,
+				E733C1B51A7807A800B4A72F /* ProximaNova-Reg.otf */,
+				E733C1B61A7807A800B4A72F /* proximanova-semibold-webfont.ttf */,
 				E7F3652C1A76CACA0080241B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +216,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E733C1BC1A7807A800B4A72F /* proximanova-semibold-webfont.ttf in Resources */,
+				E733C1BA1A7807A800B4A72F /* Proxima Nova-LightItalic.otf in Resources */,
+				E733C1BB1A7807A800B4A72F /* ProximaNova-Reg.otf in Resources */,
 				E7F365331A76CACA0080241B /* Main.storyboard in Resources */,
+				E733C1B91A7807A800B4A72F /* Proxima Nova Thin.otf in Resources */,
 				E7F365381A76CACA0080241B /* LaunchScreen.xib in Resources */,
 				E7F365351A76CACA0080241B /* Images.xcassets in Resources */,
+				E733C1B81A7807A800B4A72F /* Proxima Nova Light.ttf in Resources */,
+				E733C1B71A7807A800B4A72F /* Proxima Nova Light-2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F365301A76CACA0080241B /* ViewController.swift in Sources */,
+				E7F365501A76CF940080241B /* NotchedSliderView.swift in Sources */,
 				E7F3652E1A76CACA0080241B /* AppDelegate.swift in Sources */,
+				E7F3654E1A76CAD80080241B /* NotchedSliderControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotchedSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotchedSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +439,7 @@
 				E7F365491A76CACA0080241B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7F3654A1A76CACA0080241B /* Build configuration list for PBXNativeTarget "NotchedSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +448,7 @@
 				E7F3654C1A76CACA0080241B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

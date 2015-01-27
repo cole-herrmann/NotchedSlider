@@ -8,10 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol SliderControlDelegate{
+    func sliderValueUpdated()
+}
 
+class ViewController: UIViewController, SliderControlDelegate {
+
+    @IBOutlet weak var notchedSlider: NotchedSliderView!
+    @IBOutlet weak var numberLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        notchedSlider.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,7 +26,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func sliderValueUpdated() {
+        var numberString = "\(notchedSlider.getSliderControlValue())"
+        numberLabel.text = numberString
+    }
 
 }
 
